@@ -67,6 +67,8 @@ async function handle(
                 statusText: res.statusText,
             });
         }
+        console.log("[MJ Proxy Status] ", res.status);
+        console.log("[MJ Proxy Response] ", res)
 
         return res;
     } finally {
